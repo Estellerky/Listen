@@ -1,23 +1,30 @@
+
+/*image de fond*/
+. img{
+  background-size : cover;
+}
+
+/*premier bloc*/
 .yellow {
   height: 150px;
   background-color: transparent;
   padding: 20px;
   margin: 20px;
-  width: 1600px;
   font-size: 25px;
   Color : black;
 
 }
 
+/*bandeau*/
 header {
   background-color: transparent;
   height: 50px;
   font-size: 26px;
   padding: 0px;
   margin: 0px;
-  width: 1500px;
 }
 
+/*fond du bandeau*/
 .transparent {
   background-color: #ffffff;
   opacity: 0.7;
@@ -27,6 +34,7 @@ header {
 
 }
 
+/*bouton mon compte*/
 .moncompte {
   background-color: black;
   width: 20px;
@@ -39,6 +47,7 @@ header {
 
 }
 
+/*section explore*/
 .exploretitle {
   background-color: black;
   border-radius: 0px;
@@ -48,6 +57,7 @@ header {
   font-size: 20px;
 }
 
+/*section toplists*/
 .topliststitle {
   background-color: black;
   border-radius: 0px;
@@ -58,6 +68,7 @@ header {
 
 }
 
+/*section récemment écouté*/
 .Récemmentécoutétitle {
   background-color: black;
   border-radius: 0px;
@@ -68,11 +79,13 @@ header {
 
 }
 
+/*ecritures sur le bandeau*/
 .coeurplaylist {
   font-family: century gothic;
   font-size: 20px;
 }
 
+/*ancien bloc explore*/
 h3{
   background-color: transparent;
   height: 330px;
@@ -85,6 +98,7 @@ h3{
 }
 
 
+/*ancien bloc toplists*/
 h4{
   background-color: transparent;
   height: 330px;
@@ -95,6 +109,7 @@ h4{
   font-family: MingLiU-ExtB;
 }
 
+/*ancien bloc récemment écouté*/
 h5 {
   background-color: transparent;
   height : 330px;
@@ -105,6 +120,7 @@ h5 {
   font-family: MingLiU-ExtB;
 }
 
+/*barre de recherche*/
 input[type=text] {
   width : 300px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -115,18 +131,19 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  width : 20%;
+  width : 99%;
 }
 
+/*liste musique modifiable*/
 .airtable {
   background-color: transparent;
-  height : 600px;
   font-family: arial;
   font-size : 14px;
   color : white;
 
 }
 
+/*footer*/
 .main-footer {
   background-color: white;
   height:80px;
@@ -136,4 +153,22 @@ input[type=text]:focus {
   margin: 0px;
   padding: 0px;
   border-radius: 10px;
+}
+
+/*1ere ligne playlist dans onglet Playlists*/
+.musiquesplaylists1 {
+  display : flex;
+  flex-flow: row;
+  justify-content: space-between;
+  font-family: century gothic;
+  font-weight: bold;
+}
+
+/*2ème ligne playlist dans onglet Playlists*/
+.musiquesplaylists2 {
+  display : flex;
+  flex-flow: row;
+  justify-content: space-between;
+  font-family: century gothic;
+  font-weight : bold;
 }
